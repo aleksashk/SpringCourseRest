@@ -21,5 +21,4 @@ public class EmployeeGlobalExceptionHandler {
         data.setInfo(exception.getMessage());
         return new ResponseEntity<>(data, HttpStatus.BAD_REQUEST);
     }
-
 }
